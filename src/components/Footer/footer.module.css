@@ -1,0 +1,65 @@
+.footer {
+    align-items: center;
+    background-color: #043217;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.contacts h4 {
+    font-size: .9rem;
+    margin-top: 16px;
+}
+
+.more {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.more button {
+    background-color: #043217;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.more button:hover {
+    background-color: #fff;
+    color: #043217;
+}
+
+.socials svg {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .socials {
+        text-align: center;
+        width: 40%;
+    }
+
+    .contacts {
+        padding-left: 8px;
+        width: 60%;
+    }
+
+   .more {
+    margin-bottom: 16px;
+    order: 1;
+   }
+
+
+
+
+}

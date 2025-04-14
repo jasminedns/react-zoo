@@ -1,0 +1,44 @@
+.bgContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 50%;
+}
+
+.mammals {
+    background-image: url("../../assets/mammals-bg.jpg");
+    background-position: center;
+}
+
+.reptiles {
+    background-image: url("../../assets/reptiles-bg.jpg");
+    background-position: center 30%;
+}
+
+.birds {
+    background-image: url("../../assets/birds-bg.jpg");
+    background-position: center 20%;
+}
+
+.animalTitle {
+    margin-left: 16px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .bgContainer {
+        flex: 0 0 30%;
+    }
+
+    .animalTitle {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+    
+}
